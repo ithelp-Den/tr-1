@@ -1299,14 +1299,32 @@ body, html { background: #000; }
   display: flex;
   gap: calc(14 * var(--u));
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   padding: calc(1 * var(--u)) calc(1 * var(--u)) calc(1 * var(--u)) calc(25 * var(--u));
   overflow: hidden;
-  border: calc(1 * var(--u)) solid var(--pink);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   border-radius: calc(24 * var(--u));
-  box-shadow: 0 0 calc(15 * var(--u)) rgba(0, 0, 0, 0.11);
-  background:
-   url('../images/figma/res-card-bg.webp') calc(168 * var(--u)) calc(-206.25 * var(--u)) / calc(212.1 * var(--u)) calc(411.42 * var(--u)) no-repeat;
+}
+
+.s7-item:nth-child(1){
+  background-image: url(../images/t-1.webp);
+}
+
+.s7-item:nth-child(2){
+  background-image: url(../images/t-2.webp);
+}
+
+.s7-item:nth-child(3){
+  background-image: url(../images/t-3.webp);
+}
+
+.s7-item:nth-child(4){
+  background-image: url(../images/t-4.webp);
+}
+
+.s7-item:nth-child(5){
+  background-image: url(../images/t-5.webp);
 }
 
 
@@ -1596,7 +1614,7 @@ body, html { background: #000; }
 
 .s7__answer-bubble .vector {
   position: absolute;
-  right: calc(-28.5 * var(--u));
+  right: calc(-6 * var(--u));
   bottom: 0;
   width: calc(35.32 * var(--u));
   height: calc(26 * var(--u));
