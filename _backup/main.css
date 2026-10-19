@@ -1,0 +1,1761 @@
+.s1 {
+  width: 428px;
+  height: 834px;
+  position: relative;
+  background: #ffffff url('../images/img5.webp') center top / 100% 100% no-repeat;
+  overflow: hidden;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.s1-date-banner {
+  position: absolute;
+  width: 281px;
+  height: 31px;
+  left: 73px;
+  top: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  outline: 1.5px solid #F73E95;
+  outline-offset: -1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.s1-icon-cal {
+  height: 16px;
+  width: auto;
+}
+
+.s1-date-text {
+  color: #F73793;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.s1-pricing-wrap {
+  position: absolute;
+  width: 288.73px;
+  height: 99.20px;
+  left: 112.27px;
+  top: 219.79px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5.31px;
+}
+
+.s1-price-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1-price-label {
+  color: #ffffff;
+  font-size: 21.28px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 2px;
+}
+
+.s1-label-small {
+  font-size: 14.17px;
+}
+
+.s1-price-val {
+  color: #ffffff;
+  font-size: 44.09px;
+  font-family: 'League Gothic', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+}
+
+/* Імітація лінії закреслення точно як на дизайні */
+.s1-strike::after {
+  content: '';
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  top: 52%;
+  height: 2px;
+  background-color: #666666;
+}
+
+.s1-subtitle {
+  position: absolute;
+  width: 164px;
+  left: 237px;
+  top: 335px;
+  color: #000000;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+}
+
+.s1-subtitle b {
+  font-weight: 700;
+}
+
+.s1-bottom-block {
+  position: absolute;
+  width: 428px;
+  top: 613px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  z-index: 2;
+}
+
+.s1-unlock {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.s1-cta-box {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0px 4.51px 18.04px rgba(0, 0, 0, 0.10);
+  border-radius: 40.59px;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.s1-cta-text {
+  width: 121px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.s1-cta-text b {
+  font-weight: 700;
+}
+
+.s1-cta-btn {
+  width: 220px;
+  height: 52px;
+  background: linear-gradient(90deg, #F73E95 0%, #FC7BA9 51%, #F73E95 100%);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18.05px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.s1-features {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s1-feature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.s1-f-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.s1-feature span {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.s1-trusted {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.s1-img-trusted {
+  width: 100%;
+  height: auto;
+  max-height: 22px;
+  object-fit: contain;
+}
+
+
+
+
+
+.s2 {
+  width: 428px;
+  background: #ffffff;
+  padding: 40px 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Sans 3', sans-serif;
+  overflow: hidden;
+}
+
+/* Заголовок */
+.s2-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.s2-pretitle {
+  color: #292929;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.s2-title {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.96px;
+}
+
+.s2-title-black {
+  color: #1B1B1B;
+}
+
+.s2-title-pink {
+  color: #F84A99;
+}
+
+.s2-subtitle {
+  color: #292929;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Карусель */
+.s2-carousel {
+  width: 100vw;
+  max-width: 428px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.s2-track-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.s2-mt-9 {
+  margin-top: 9px;
+}
+
+.s2-track {
+  display: flex;
+  gap: 14px;
+  width: max-content;
+}
+
+.s2-track img {
+  width: 157.36px;
+  height: 88.63px;
+  border-radius: 10.40px;
+  object-fit: cover;
+  box-shadow: 0 0 0 0.87px #ffffff;
+}
+
+/* Анімації каруселі */
+.s2-track-left {
+  animation: s2-scroll-left 15s linear infinite;
+}
+
+.s2-track-right {
+  /* Зміщуємо початкову позицію, щоб рух був вправо */
+  transform: translateX(-50%);
+  animation: s2-scroll-right 15s linear infinite;
+}
+
+@keyframes s2-scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-50% - 7px)); } /* 7px це половина gap */
+}
+
+@keyframes s2-scroll-right {
+  0% { transform: translateX(calc(-50% - 7px)); }
+  100% { transform: translateX(0); }
+}
+
+/* Переваги (Features) */
+.s2-features {
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.s2-feature {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.s2-f-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: contain;
+  flex-shrink: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.s2-f-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.s2-f-title {
+  color: #F84A99;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.s2-f-desc {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/* Блок Trust */
+.s2-trusted {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.s2-trusted-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.s3 {
+  width: 428px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Source Sans 3', sans-serif;
+  /* Градієнт розміщуємо на статичному фоні, щоб він не "плив" разом з текстом */
+  background: linear-gradient(90deg, #F73E95 0%, #FC7BA9 51%, #F73E95 100%);
+}
+
+.s3-ticker-wrap {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 100%;
+  /* Анімація нескінченної прокрутки вліво */
+  animation: s3-ticker-anim 12s linear infinite;
+}
+
+.s3-ticker-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* Відступ зліва для збереження ідеальної відстані при склеюванні двох груп */
+  padding-left: 12px; 
+}
+
+.s3-icon {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.s3-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+/* 
+  Оскільки ми маємо рівно 2 однакові групи в контейнері, 
+  зміщення на -50% створює ідеальний безшовний цикл.
+*/
+@keyframes s3-ticker-anim {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
+
+
+
+
+
+.s9 {
+    width: 440px;
+    background-color: #ffffff;
+    padding: 30px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+ 
+.s9__header {
+    padding: 0 25px;
+}
+ 
+.s9__review-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ 
+/* Swiper контейнер */
+.gallery-swiper {
+    padding: 0px 0px 0px 15px !important;
+    overflow: initial !important;
+}
+ 
+.gallery-swiper .swiper-slide {
+    width: auto !important;
+    margin: 0 !important;
+}
+ 
+.s9__slide {
+    width: auto;
+    position: relative !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+}
+ 
+.s9__img {
+    height: 450px;
+    object-fit: contain;
+    display: block;
+    pointer-events: auto !important;
+}
+ 
+/* ── Controls (пагінація + стрілки) ── */
+ 
+.s8__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+ 
+.s8__nav {
+    display: flex;
+    gap: 14px;
+}
+ 
+.s8__arrow-prev,
+.s8__arrow-next {
+    position: static !important;
+    margin: 0 !important;
+    width: 45px !important;
+    height: 45px !important;
+    background: transparent !important;
+    display: flex !important;
+}
+ 
+.s8__arrow-prev::after,
+.s8__arrow-next::after {
+    display: none !important;
+}
+ 
+.swiper-button-prev img,
+.swiper-button-next img {
+    width: 45px;
+}
+ 
+/* ── Swiper пагінація ── */
+ 
+.gallery-slider-pagination {
+    position: static !important;
+    width: auto !important;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+ 
+.swiper-pagination {
+    max-width: 200px;
+    padding: 10px;
+    overflow: hidden;
+}
+ 
+.swiper-pagination-bullet {
+    width: 8px !important;
+    min-width: 8px !important;
+    height: 8px !important;
+    background: transparent !important;
+    border: 1px solid #f1070798 !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+ 
+.swiper-pagination-bullet-active {
+    background-color: #F10707 !important;
+    box-shadow: 0 0 0px 4px #FAADAD;
+}
+ 
+/* Відео всередині слайдів */
+.swiper-wrapper video {
+    border-radius: 30px;
+}
+
+
+
+
+
+.tr5 {
+  width: 428px;
+  padding: 60px 24px 24px 24px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* Верхня частина */
+.tr5-top-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tr5-title {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+  font-family: 'League Gothic', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 40px;
+  margin: 0;
+}
+
+.tr5-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tr5-list-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tr5-list-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.tr5-list-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tr5-text-bold {
+  color: black;
+  font-size: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.tr5-text-normal {
+  color: black;
+  font-size: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* Нижня частина: Сітка */
+.tr5-grid-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tr5-grid-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+}
+
+.tr5-grid-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tr5-card-header {
+  width: 100%;
+  padding: 12px;
+  background: #F7F7F7;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  box-sizing: border-box;
+}
+
+.tr5-card-day {
+  text-align: center;
+  color: #F73793;
+  font-size: 24px;
+  font-family: 'League Gothic', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+.tr5-card-desc {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.70);
+  font-size: 14px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* Контейнери відео для скрипта */
+.tr5-video-container {
+  width: 100%;
+  height: 101px;
+  border-radius: 12px;
+  outline: 1px white solid;
+  outline-offset: -1px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.tr5-video-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.tr5-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Стилі для кастомного оверлея плеєра, який генерує скрипт */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.video-play-btn {
+  width: 44px;
+  height: 44px;
+  transition: opacity 0.3s ease;
+  box-shadow: 0px 0px 33px rgba(241, 144, 196, 0.66);
+  border-radius: 50%;
+}
+
+.video-play-btn svg {
+  width: 100%;
+  height: 100%;
+}
+
+.video-overlay.is-playing {
+  background: transparent;
+}
+
+.video-overlay.is-playing .video-play-btn {
+  opacity: 0;
+}
+
+.video-overlay.is-playing.touched .video-play-btn,
+.video-overlay.is-playing:hover .video-play-btn {
+  opacity: 1;
+}
+
+
+
+.swiper-slide{
+    position: relative;
+}
+.pgpg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 52px;
+    width: 52px;
+}
+
+
+.s4 {
+  width: 428px;
+  background: #ffffff;
+  padding: 70px 24px 40px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Sans 3', sans-serif;
+  overflow: hidden;
+}
+
+/* Заголовок */
+.s4-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.s4-title {
+  color: #000000;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.s4-line-blue { width: 16px; height: 2px; background: #3EA1F7; }
+.s4-line-pink { width: 24px; height: 2px; background: #F73E95; }
+
+/* Таймлайн контейнер */
+.s4-timeline {
+  width: 355px;
+  height: 576px;
+  position: relative;
+}
+
+/* Хвиляста лінія */
+.s4-bg-line {
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  width: 150px;
+  height: auto;
+  z-index: 0;
+}
+
+/* Ліва колонка (Фотографії) */
+.s4-img-col {
+  position: absolute;
+  left: 15px;
+  top: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1;
+}
+
+.s4-img-wrap {
+  width: 125px;
+  height: 125px;
+  position: relative;
+
+  border-radius: 50%;
+}
+
+/* Точне позиціонування картинок згідно з плагіном */
+.s4-photo { position: absolute; }
+.s4-photo-1 { width: 125px; height: 125px; left: 0px; top: 0px; }
+.s4-photo-2 { width:125px; height: 125px; left: 0px; top: 0px; }
+.s4-photo-3 { width: 125px; height: 125px; left: 0px; top: 0px; }
+.s4-photo-4 { width: 125px; height: 125px; left: 0px; top: 10px; }
+
+/* Права колонка (Тексти) */
+.s4-text-col {
+  position: absolute;
+  left: 171px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px; /* Оригінальний відступ із коду */
+  z-index: 1;
+}
+
+.s4-text-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Рожевий бейдж */
+.s4-badge {
+  height: 30px;
+  width: fit-content;
+  min-width: 71px;
+  padding: 0 16px;
+  background: linear-gradient(90deg, #F73E95 0%, #FC7BA9 51%, #F73E95 100%);
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: 1px solid rgba(255, 255, 255, 0.50);
+  outline-offset: -1px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.s4-desc {
+  width: 184px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* ========================================= */
+/* ЛОГІКА АНІМАЦІЙ                           */
+/* ========================================= */
+
+/* ========================================= */
+/* ЛОГІКА АНІМАЦІЙ                           */
+/* ========================================= */
+
+.s4-anim-scale {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: opacity 0.6s ease-out, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.s4-anim-fade {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+/* Спрацьовування анімації тепер прив'язане до самого елемента */
+.s4-anim-scale.s4-is-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.s4-anim-fade.s4-is-visible {
+  opacity: 1;
+}
+
+/* Затримки залишаємо для парних елементів (картинка і текст одного дня) */
+.s4-delay-1 { transition-delay: 0.1s; }
+.s4-delay-2 { transition-delay: 0.25s; }
+.s4-delay-3 { transition-delay: 0.1s; }
+.s4-delay-4 { transition-delay: 0.25s; }
+
+
+
+
+
+.s5 {
+  width: 428px;
+  background-color: #ffffff;
+  padding: 40px 0px 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Заголовок блоку */
+.s5-header {
+  text-align: center;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 48px;
+  line-height: 1.05;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.s5-title-black {
+  color: #111111;
+}
+
+.s5-title-pink {
+  color: #F73E95;
+}
+
+/* Основна картка */
+.s5-card {
+  width: 380px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 4px 14.1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+/* Червоний банер із фоном img6.webp */
+.s5-card-top {
+  width: 100%;
+  height: 120px;
+  background: url('../images/img6.webp') center center / contain no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.s5-top-title {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.s5-top-subtitle {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+/* Нижня контентна частина картки */
+.s5-card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.s5-desc {
+  width: 313px;
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.s5-desc b {
+  font-weight: 700;
+}
+
+.s5-timer-text {
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.s5-timer-text b {
+  font-weight: 700;
+}
+
+.s5-pink-time {
+  color: #F73793;
+  font-weight: 700;
+}
+
+/* Кнопка */
+.s5-btn {
+  width: 322px;
+  height: 64px;
+  background: linear-gradient(90deg, #F73E95 0%, #FC7BA9 51%, #F73E95 100%);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Фоновий напис "FREE BONUS" позаду картки */
+.s5-bg-text {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 130px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  line-height: 0.75;
+  z-index: 1;
+  pointer-events: none;
+  /* Градієнт для ефекту плавного зникання донизу */
+  background: linear-gradient(180deg, rgba(247, 62, 148, 0.474) 0%, rgba(247, 62, 149, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.s6 {
+  width: 428px;
+  background: #ffffff;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Sans 3', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.s6-card {
+  width: 428px;
+  padding: 26.87px;
+  background: radial-gradient(79.92% 117.78% at 50% 4.04%, #FDF3C3 0%, #DEB870 57.21%, #8B652D 100%);
+box-shadow: 0 0 12.09px 0 #FEF8D1 inset;
+
+  border-radius: 24px;
+  outline: 2.24px solid #ffffff;
+  outline-offset: -2.24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.s6-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15.67px;
+  width: 100%;
+}
+
+.s6-badge {
+  width: 85.08px;
+  height: 106.35px;
+  object-fit: contain;
+}
+
+.s6-title-big {
+  color: #413E34;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 74.39px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 91.73px;
+  text-shadow: 0px 3px 3px #F3E3B4;
+  text-align: center;
+}
+
+.s6-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.s6-title-small {
+  color: #1F1A0F;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.s6-desc {
+  color: #1F1A0F;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+
+
+.s7 {
+  width: 428px;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  font-family: 'Source Sans 3', sans-serif;
+  overflow: hidden;
+}
+
+/* Заголовок */
+.s7-header {
+  text-align: center;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.s7-title-pink { color: #F73793; }
+.s7-title-black { color: #000000; }
+
+/* Список карток */
+.s7-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.s7-item {
+  width: 380px;
+  height: 105px;
+  background: linear-gradient(180deg, #ECECEC 0%, #FFFFFF 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Стилі тексту всередині карток */
+.s7-text {
+  position: relative;
+  z-index: 2;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.s7-text b {
+  color: #F73793;
+  font-weight: 700;
+}
+
+/* Індивідуальна ширина та розмір тексту для точного збігу з дизайном */
+.s7-t1 { width: 174px; }
+.s7-t2 { width: 162px; font-size: 17px; }
+.s7-t3 { width: 185px; font-size: 17px; }
+.s7-t4 { width: 170px; }
+.s7-t5 { width: 176px; }
+
+/* Контейнери для картинок із маскою для плавного розчинення вліво */
+.s7-img-wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,1) 20%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,1) 20%);
+  border-radius: 0 12px 12px 0;
+  overflow: hidden;
+}
+
+.s7-img-wrap img {
+  max-width: none;
+  height: 105px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+.s8 {
+  width: 428px;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Заголовок */
+.s8-header {
+  width: 100%;
+  text-align: center;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.s8-title-black {
+  color: #000000;
+}
+
+.s8-title-pink {
+  color: #F73793;
+}
+
+/* Навігація з іконками */
+.s8-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.s8-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.s8-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  outline: 1px solid rgba(255, 255, 255, 0.50);
+  outline-offset: -1px;
+}
+
+.s8-nav-item span {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Список кроків */
+.s8-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* Відступи керуються margin-bottom на елементах або flex-gap. Плагін дав розрізнені блоки з відступами */
+  width: 100%;
+}
+
+.s8-step {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.s8-step:last-child {
+  margin-bottom: 0;
+}
+
+.s8-step-num {
+  width: 61px;
+  text-align: center;
+  color: #F73793;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 85.05px;
+  font-weight: 400;
+  line-height: 1;
+  opacity: 0.20;
+  flex-shrink: 0;
+}
+
+.s8-step-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.s8-step-title {
+  color: #F73793;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.s8-step-desc {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+/* ── FAQ ── */
+.faq{padding:40px 24px}
+.faq-container{position:relative;z-index:4;margin-bottom:12px}
+.inside-title{font-size:46px;text-transform:uppercase;font-weight:400;color:#000}
+.s7__container{}
+.s7__item{margin-bottom:10px;position:relative;z-index:4}
+.s7__question{display:flex;align-items:center;padding:15px 0;cursor:pointer;position:relative}
+.container-q-icon{margin-right:10px; width: 35px; height: 35px;}
+.s7__q-text{flex:1;padding-right:10px;font-size:16px;line-height:100%;font-weight:400;color:#000}
+.s7__arrow{width:22px;height:12px;transition:.3s}
+.s7__item.active .s7__arrow{transform:rotate(-180deg);margin-top:5px}
+.s7__answer{max-height:0;overflow:hidden;transition:max-height .4s ease-out}
+.s7__answer-inner{display:flex;align-items:flex-end;padding-bottom:20px;gap:8px}
+.s7__answer-bubble{background:#f7f7f7;border-radius:25px;padding:12px;flex:1;position:relative;font-size:16px;line-height:130%;font-weight:400;color:#000}
+.vector{position:absolute;bottom:0;right:-7px; width: 36px;}
+.s7__avatar{width:55px;height:55px;border-radius:50%;flex-shrink:0}
+
+/* ── CONTACTS ── */
+.contacts{padding:0 24px 40px 24px;margin:0 auto 200px}
+.contacts__grid{position:relative;z-index:4;display:flex;justify-content:space-between;gap:12px;margin:24px 0}
+.contacts__card{display:flex;flex-direction:column;align-items:center;justify-content:center;width:118px;height:120px;box-shadow:inset 0 2px 4px 0 rgba(0,0,0,.1),inset 0 -2px 4px 0 rgba(255,255,255,.25);background:linear-gradient(180deg,rgba(255,255,255,.08) 0,rgba(255,255,255,.08) 100%);border-radius:30px;text-decoration:none;box-sizing:border-box;border:1px solid rgba(255,255,255,.05);border-top:1px solid rgba(255,255,255,.25)}
+.contacts__icon{width:37%;object-fit:contain;margin-bottom:12px}
+.contacts__icon--email{width:48px}
+.contacts__label{font-size:16px;line-height:111%;font-weight:400;color:#000}
+.contacts__policy{color:#7d7d7d;font-size:13px;font-weight:400;display:inline-block;text-decoration:underline;margin-bottom:15px;position:relative;z-index:4}
+.contacts__copyright{color:#7d7d7d;font-size:13px;font-weight:400;line-height:1.4;margin-bottom:24px;position:relative;z-index:4}
+.contacts__payments{display:block;width:100%;max-width:90%;height:auto;object-fit:contain;margin-left:-2px;position:relative;z-index:4}
+
+/* --- Головний контейнер таймера (без фону) --- */
+.countdown-section-container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+
+/* --- Лівий текст --- */
+.countdown-label {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: left;
+  color: #000;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+/* --- Обгортка блоків часу --- */
+.countdown-timer-wrap {
+    
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Точний простір між елементами та двокрапками */
+}
+
+
+
+
+
+
+/* ── FOOTER CONTAINER ── */
+.footer-bg {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(150px);
+  transition: 0.5s;
+}
+
+.footer-bg.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.footer {
+  width: 428px;
+  padding: 24px 24px 50px 24px;
+  background: rgba(255, 255, 255, 0.60);
+  box-shadow: 0px -6px 38px rgba(0, 0, 0, 0.20);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.30);
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+/* ── COUNTDOWN SECTION ── */
+.countdown-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.countdown-label {
+  width: 196px;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 1.28px;
+  margin: 0;
+}
+
+.countdown-timer-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Окремий кубик часу */
+.timer-box {
+  padding: 10px 8px;
+  max-height: 38px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.73) 0%, rgba(0, 0, 0, 0.54) 100%);
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.44px;
+  min-width: 38px;
+  box-sizing: border-box;
+}
+
+/* Розділювач (геометрична лінія) */
+.timer-separator {
+  color: #968A8F;
+  font-size: 22px;
+}
+
+/* ── BUTTON ── */
+.footerButton-new {
+  width: 100%;
+  height: 64px;
+  padding: 10px;
+  background: linear-gradient(90deg, #F73E95 0%, #FC7BA9 51%, #F73E95 100%);
+  border-radius: 100px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 24.34px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Анімації кнопки залишаються незмінними */
+.btn-active {
+  animation: 2s ease-in-out infinite pulseEmail;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-active::after {
+  content: '';
+  position: absolute;
+  left: -150%;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,.25) 50%, rgba(255,255,255,0) 100%);
+  transform: skewX(-25deg);
+  animation: 10s ease-in-out infinite lightSweep;
+}
+
+@keyframes pulseEmail {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.03); opacity: 0.95; }
+}
+
+@keyframes lightSweep {
+  0% { left: -150%; }
+  12%, 30%, 100% { left: 150%; }
+}
+
+
+
+
+
+
+@media (max-width: 440px) {
+  /* BLOCK 1 */
+  .s1 { width: 100vw; height: 194.86vw; }
+  .s1-date-banner { width: 65.65vw; height: 7.24vw; left: 17.06vw; top: 9.35vw; border-radius: 23.36vw; gap: 2.80vw; }
+  .s1-icon-cal { height: 3.74vw; }
+  .s1-date-text { font-size: 3.27vw; letter-spacing: 0.12vw; }
+  .s1-pricing-wrap { width: 67.46vw; height: 23.18vw; left: 26.23vw; top: 51.35vw; gap: 1.24vw; }
+  .s1-price-label { font-size: 4.97vw; margin-bottom: 0.47vw; }
+  .s1-label-small { font-size: 3.31vw; }
+  .s1-price-val { font-size: 10.30vw; }
+  .s1-subtitle { width: 38.32vw; left: 55.37vw; top: 78.27vw; font-size: 4.67vw; line-height: 5.37vw; }
+  .s1-bottom-block { width: 100vw; top: 143.22vw; gap: 3.27vw; }
+  .s1-unlock { font-size: 4.67vw; margin-bottom: 0.47vw; }
+  .s1-cta-box { width: 93.46vw; border-radius: 9.48vw; padding: 3.27vw 5.61vw; }
+  .s1-cta-text { width: 28.27vw; font-size: 3.27vw; line-height: 4.44vw; }
+  .s1-cta-btn { width: 51.40vw; height: 12.15vw; border-radius: 23.36vw; font-size: 4.22vw; letter-spacing: 0.12vw; }
+  .s1-features { width: 88.79vw; }
+  .s1-feature { gap: 1.87vw; }
+  .s1-f-icon { width: 4.67vw; height: 4.67vw; }
+  .s1-feature span { font-size: 3.27vw; line-height: 3.50vw; }
+  .s1-trusted { margin-top: 1.17vw; }
+  .s1-img-trusted { max-height: 5.14vw; }
+
+  /* BLOCK 2 */
+  .s2 { width: 100vw; padding: 9.35vw 0; }
+  .s2-header { gap: 1.87vw; margin-bottom: 5.61vw; }
+  .s2-pretitle { font-size: 4.67vw; }
+  .s2-title { font-size: 11.21vw; letter-spacing: 0.22vw; }
+  .s2-subtitle { font-size: 4.67vw; }
+  .s2-carousel { max-width: 100vw; margin-bottom: 5.61vw; }
+  .s2-mt-9 { margin-top: 2.10vw; }
+  .s2-track { gap: 3.27vw; }
+  .s2-track img { width: 36.77vw; height: 20.71vw; border-radius: 2.43vw; }
+  .s2-features { padding: 0 5.61vw; gap: 5.61vw; margin-bottom: 5.61vw; }
+  .s2-feature { gap: 3.27vw; }
+  .s2-f-icon { width: 8.41vw; height: 8.41vw; }
+  .s2-f-title { font-size: 4.21vw; }
+  .s2-f-desc { font-size: 3.74vw; }
+
+  /* BLOCK 3 */
+  .s3 { width: 100vw; height: 6.54vw; }
+  .s3-ticker-group { gap: 2.80vw; padding-left: 2.80vw; }
+  .s3-icon { width: 2.80vw; height: 2.80vw; }
+  .s3-text { font-size: 3.74vw; line-height: 4.67vw; }
+
+  /* BLOCK 9 */
+  .s9 { width: 100vw; padding: 7.01vw 0; }
+  .s9__header { padding: 0 5.84vw; }
+  .s9__review-label { gap: 2.34vw; font-size: 4.67vw; }
+  .gallery-swiper { padding: 0 0 0 3.50vw !important; }
+  .s9__img { height: 105.14vw; }
+  .s8__controls { margin-top: 4.67vw; padding: 0 3.50vw; }
+  .s8__nav { gap: 3.27vw; }
+  .s8__arrow-prev, .s8__arrow-next { width: 10.51vw !important; height: 10.51vw !important; }
+  .swiper-button-prev img, .swiper-button-next img { width: 10.51vw; }
+  .gallery-slider-pagination { gap: 2.80vw; }
+  .swiper-pagination { max-width: 46.73vw; padding: 2.34vw; }
+  .swiper-pagination-bullet { width: 1.87vw !important; min-width: 1.87vw !important; height: 1.87vw !important; }
+  .swiper-wrapper video { border-radius: 7.01vw; }
+
+  /* TR5 */
+  .tr5 { width: 100vw; padding: 14.02vw 5.61vw 5.61vw 5.61vw; gap: 10.51vw; }
+  .tr5-top-section { gap: 3.50vw; }
+  .tr5-title { font-size: 11.21vw; line-height: 9.35vw; }
+  .tr5-list { gap: 3.27vw; }
+  .tr5-list-item { gap: 3.27vw; }
+  .tr5-list-icon { width: 8.18vw; height: 8.18vw; }
+  .tr5-text-bold, .tr5-text-normal { font-size: 4.67vw; line-height: 4.67vw; }
+  .tr5-grid-section { gap: 7.48vw; }
+  .tr5-grid-row { gap: 3.27vw; }
+  .tr5-card-header { padding: 2.80vw; border-top-left-radius: 2.80vw; border-top-right-radius: 2.80vw; gap: 0.93vw; }
+  .tr5-card-day { font-size: 5.61vw; }
+  .tr5-card-desc { font-size: 3.27vw; line-height: 4.67vw; }
+  .tr5-video-container { height: 23.60vw; border-radius: 2.80vw; }
+  .video-play-btn { width: 10.28vw; height: 10.28vw; }
+  .pgpg { height: 12.15vw; width: 12.15vw; }
+
+  /* BLOCK 4 */
+  .s4 { width: 100vw; padding: 16.36vw 5.61vw 9.35vw 5.61vw; }
+  .s4-header { gap: 2.80vw; margin-bottom: 7.48vw; }
+  .s4-title { font-size: 11.21vw; letter-spacing: 0.22vw; }
+  .s4-line-blue { width: 3.74vw; height: 0.47vw; }
+  .s4-line-pink { width: 5.61vw; height: 0.47vw; }
+  .s4-timeline { width: 82.94vw; height: 134.58vw; }
+  .s4-bg-line { left: 0.70vw; top: 0vw; width: 35.05vw; }
+  .s4-img-col { left: 3.50vw; top: 2.10vw; gap: 3.50vw; }
+  .s4-img-wrap { width: 29.21vw; height: 29.21vw; }
+  .s4-photo-1, .s4-photo-2, .s4-photo-3 { width: 29.21vw; height: 29.21vw; left: 0vw; top: 0vw; }
+  .s4-photo-4 { width: 29.21vw; height: 29.21vw; left: 0vw; top: 2.34vw; }
+  .s4-text-col { left: 39.95vw; top: 4.67vw; gap: 11.68vw; }
+  .s4-text-item { gap: 2.80vw; }
+  .s4-badge { height: 7.01vw; min-width: 16.59vw; padding: 0 3.74vw; border-radius: 23.36vw; font-size: 4.67vw; }
+  .s4-desc { width: 42.99vw; font-size: 3.74vw; line-height: 4.67vw; }
+
+  /* BLOCK 5 */
+  .s5 { width: 100vw; padding: 9.35vw 0 14.02vw; }
+  .s5-header { font-size: 11.21vw; letter-spacing: 0.12vw; margin-bottom: 5.61vw; }
+  .s5-card { width: 88.79vw; border-radius: 5.61vw; }
+  .s5-card-top { padding-left: 4.67vw; height: 28.5vw; }
+  .s5-top-title { font-size: 11.21vw; letter-spacing: 0.12vw; }
+  .s5-top-subtitle { font-size: 4.21vw; margin-top: 0.93vw; }
+  .s5-card-body { padding: 5.61vw; gap: 5.61vw; }
+  .s5-desc { width: 73.13vw; font-size: 3.74vw; line-height: 4.67vw; }
+  .s5-timer-text { font-size: 3.74vw; line-height: 4.67vw; }
+  .s5-btn { width: 75.23vw; height: 14.95vw; border-radius: 23.36vw; font-size: 5.61vw; }
+  .s5-bg-text { font-size: 30.37vw; }
+
+  /* BLOCK 6 */
+  .s6 { width: 100vw; padding: 9.35vw 0; }
+  .s6-card { width: 100vw; padding: 6.28vw; border-radius: 5.61vw; }
+  .s6-header { gap: 3.66vw; }
+  .s6-badge { width: 19.88vw; height: 24.85vw; }
+  .s6-title-big { font-size: 17.38vw; line-height: 21.43vw; }
+  .s6-title-small { font-size: 3.74vw; margin-bottom: 0.47vw; }
+  .s6-desc { font-size: 3.74vw; }
+
+  /* BLOCK 7 */
+  .s7 { width: 100vw; padding: 9.35vw 5.61vw; gap: 5.61vw; }
+  .s7-header { font-size: 11.21vw; letter-spacing: 0.22vw; }
+  .s7-list { gap: 5.61vw; }
+  .s7-item { width: 88.79vw; height: 24.53vw; border-radius: 2.80vw; padding-left: 5.61vw; }
+  .s7-text { font-size: 3.74vw; line-height: 4.44vw; }
+  .s7-t1 { width: 40.65vw; }
+  .s7-t2 { width: 37.85vw; font-size: 3.97vw; }
+  .s7-t3 { width: 43.22vw; font-size: 3.97vw; }
+  .s7-t4 { width: 39.72vw; }
+  .s7-t5 { width: 41.12vw; }
+  .s7-img-wrap { border-radius: 0 2.80vw 2.80vw 0; }
+  .s7-img-wrap img { height: 24.53vw; }
+
+  /* BLOCK 8 */
+  .s8 { width: 100vw; padding: 9.35vw 5.61vw; gap: 5.61vw; }
+  .s8-header { font-size: 11.21vw; letter-spacing: 0.22vw; }
+  .s8-nav { gap: 1.87vw; }
+  .s8-nav-item { gap: 1.87vw; }
+  .s8-icon { width: 7.01vw; height: 7.01vw; }
+  .s8-nav-item span { font-size: 3.27vw; }
+  .s8-step { gap: 3.27vw; margin-bottom: 5.61vw; }
+  .s8-step-num { width: 14.25vw; font-size: 19.87vw; }
+  .s8-step-title { font-size: 3.74vw; margin-bottom: 0.47vw; }
+  .s8-step-desc { font-size: 3.74vw; line-height: 4.49vw; }
+
+  /* FAQ */
+  .faq { padding: 9.35vw 5.61vw; }
+  .faq-container { margin-bottom: 2.80vw; }
+  .inside-title { font-size: 10.75vw; }
+  .s7__item { margin-bottom: 2.34vw; }
+  .s7__question { padding: 3.50vw 0; }
+  .container-q-icon { margin-right: 2.34vw; width: 8.18vw; height: 8.18vw; }
+  .s7__q-text { padding-right: 2.34vw; font-size: 3.74vw; }
+  .s7__arrow { width: 5.14vw; height: 2.80vw; }
+  .s7__item.active .s7__arrow { margin-top: 1.17vw; }
+  .s7__answer-inner { padding-bottom: 4.67vw; gap: 1.87vw; }
+  .s7__answer-bubble { border-radius: 5.84vw; padding: 2.80vw; font-size: 3.74vw; }
+  .vector { right: -1.64vw; width: 8.41vw; }
+  .s7__avatar { width: 12.85vw; height: 12.85vw; }
+
+  /* CONTACTS */
+  .contacts { padding: 0 5.61vw 9.35vw 5.61vw; margin: 0 auto 46.73vw; }
+  .contacts__grid { gap: 2.80vw; margin: 5.61vw 0; }
+  .contacts__card { width: 27.57vw; height: 28.04vw; border-radius: 7.01vw; }
+  .contacts__icon { margin-bottom: 2.80vw; }
+  .contacts__icon--email { width: 11.21vw; }
+  .contacts__label { font-size: 3.74vw; }
+  .contacts__policy { font-size: 3.04vw; margin-bottom: 3.50vw; }
+  .contacts__copyright { font-size: 3.04vw; margin-bottom: 5.61vw; }
+  .contacts__payments { margin-left: -0.47vw; }
+
+  /* FOOTER & TIMERS */
+  .countdown-label { font-size: 4.67vw; }
+  .countdown-timer-wrap { gap: 1.40vw; }
+  
+  .footer-bg { transform: translateY(35.05vw); }
+  .footer { width: 100vw; padding: 5.61vw 5.61vw; border-top-left-radius: 5.61vw; border-top-right-radius: 5.61vw; }
+  .footer-container { gap: 5.61vw; }
+  .footer .countdown-label { width: 45.79vw; font-size: 3.74vw; line-height: 4.21vw; letter-spacing: 0.30vw; }
+  .timer-box { padding: 2.34vw 1.87vw; max-height: 8.88vw; border-radius: 3.27vw; font-size: 4.21vw; letter-spacing: 0.34vw; min-width: 8.88vw; }
+  .timer-separator { font-size: 5.14vw; }
+  .footerButton-new { height: 14.95vw; padding: 2.34vw; border-radius: 23.36vw; font-size: 5.61vw; line-height: 5.69vw; }
+}
